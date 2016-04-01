@@ -1,0 +1,26 @@
+{ "questions": [{
+    "body": "How many planets are there in the solar system?",
+    "author": "Stevie Noodles",
+    "notes": "I need to know.",
+    "answer": ""
+  }, {
+    "body": "Why is grass green",
+    "author": "Debra McDoogan",
+    "notes": "Why not blue?",
+    "answer": ""
+  }, {
+    "body": "Is purple the best color?",
+    "author": "Ally Sconeborn",
+    "notes": "I think so.",
+    "answer": ""
+  }],
+  "answers": [{
+    "text": "because",
+    "author": "JIMI JON",
+    "question": ""
+  }, {
+    "text": "you're an idiot",
+    "author": "Spence Sharpo",
+    "question": ""
+  }]
+}

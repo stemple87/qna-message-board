@@ -1,5 +1,6 @@
 <li>
-  Question: {{question.body}} - Author: {{question.author}} - Notes: {{question.notes}}
-  {{update-question question=question update="update"}}
-  <button {{action 'delete' question}}>Delete</button>
+  {{#link-to 'question' question.id}}
+  Question: {{question.body}} - Author: {{question.author}}
+  <!-- {{question.answer.text}} -->
+  {{/link-to}}
 </li>
