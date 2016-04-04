@@ -2,3 +2,11 @@
 {{question-detail question=model destroyQuestion="destroyQuestion"}}
 
 {{update-question question=model update="update"}}
+
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.author}} says: {{answer.text}}</li>
+  {{/each}}
+</ul>
+<br>
+{{new-answer question=model answer=answer saveAnswer2="saveAnswer3"}}

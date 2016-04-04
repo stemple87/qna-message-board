@@ -1,1 +1,20 @@
-{{yield}}
+{{#if addAnswerForm}}
+  <h3>Answer this Question!</h3>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="author">Author: </label>
+          {{input value=author id="author"}}
+        </div>
+
+        <div class="form-group">
+          <label for="text">Answer: </label>
+          {{input value=text id="text"}}
+        </div>
+
+        <button {{action 'saveAnswer'}} class="btn btn-success">Answer Question!</button>
+      </form>
+    </div>
+{{else}}
+  <button {{action 'answerFormShow'}} class="btn btn-primary" id="answerQuestionBtn">Answer this Question!</button>
+{{/if}}
