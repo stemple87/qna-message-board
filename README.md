@@ -1,7 +1,20 @@
-# Message-board
+# Q&A MESSAGE BOARD
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _Ask Questions, Get Answers! 4/1/16_
+
+#### _**By Simon Temple**_
+
+## Description
+
+_This is an app that allows users to ask questions, and recieve answers by other users. Any user is able to update, delete, and edit questions. Any user may also answer any questions._
+
+## Known Bugs
+
+_None yet._
+
+## Support and contact details
+
+_You can contact me at simonctemple@live.com or at my github page https://github.com/stemple87/_
 
 ## Prerequisites
 
@@ -50,4 +63,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
